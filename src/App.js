@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './Authform.css';
 import AuthForm from './AuthForm';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './Dashboard/Layout';
 import Dashboard from './Dashboard/Dashboard';
 import Profile from './Dashboard/features/Profile';
